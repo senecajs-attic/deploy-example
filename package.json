@@ -1,0 +1,26 @@
+{
+  "name": "deploy-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/senecajs/deploy-example.git"
+  },
+  "author": "Richard Rodger (http://richardrodger.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/senecajs/deploy-example/issues"
+  },
+  "homepage": "https://github.com/senecajs/deploy-example",
+  "dependencies": {
+    "body-parser": "^1.11.0",
+    "express": "^4.11.2",
+    "lodash": "^3.1.0",
+    "seneca": "^0.6.1",
+    "seneca-beanstalk-transport": "^0.1.1"
+  }
+}
