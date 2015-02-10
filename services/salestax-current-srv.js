@@ -1,3 +1,4 @@
+var SRV_HOST = process.env.SRV_HOST || '127.0.0.1'
 
 require('seneca')()
   .use('beanstalk-transport')
@@ -5,4 +6,8 @@ require('seneca')()
   .add('role:salestax-current',function(args,done){
     this.act('role:salestax',args,done)
   })
-  .listen({type:'beanstalk',pin:'role:salestax-current'})
+  .listen({
+    type: 'beanstalk',
+    pin:  'role:salestax-current',
+    host: SRV_HOST
+  })

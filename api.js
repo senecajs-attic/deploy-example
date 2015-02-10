@@ -3,6 +3,10 @@
 
 module.exports = function api( options ) {
 
+  this.add('role:api,path:ping',function(args,done){
+    done(null,{pong:Date.now()})
+  })
+
   this.add('role:api,path:salestax',function(args,done){
     this.act('role:salestax,cmd:calculate',{
       net:args.net,
@@ -16,7 +20,8 @@ module.exports = function api( options ) {
     prefix: '/api',
     pin:    'role:api,path:*',
     map: {
-      salestax: true
+      ping:     true,
+      salestax: true,
     }
   }})
 }
