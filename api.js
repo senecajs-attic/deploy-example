@@ -4,7 +4,7 @@
 module.exports = function api( options ) {
 
   this.add('role:api,path:ping',function(args,done){
-    done(null,{pong:Date.now()})
+    done(null,{pong:Date.now(),version:2})
   })
 
   this.add('role:api,path:salestax',function(args,done){
