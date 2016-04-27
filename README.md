@@ -1,8 +1,12 @@
-
-
-
 ![Seneca](http://senecajs.org/files/assets/seneca-logo.png)
 > A [Seneca.js][] example module
+
+# Project Status :
+This plugin is not being supported by the seneca organization,  and is no longer proven to work.
+If you are interested in maintaining this project, please contact us via the issue queue.
+
+If you are new to Seneca in general, please take a look at [senecajs.org][]. We have everything from
+tutorials to sample apps to help get you up and running quickly.
 
 # deploy-example
 
@@ -17,13 +21,6 @@ If you're using this module, and need help, you can:
 - Post a [github issue][],
 - Tweet to [@senecajs][],
 - Ask on the [Gitter][gitter-url].
-
-# Project Status :
-This plugin is not being supported by the seneca organization,  and is no longer proven to work.
-If you are interested in maintaining this project, please contact us via the issue queue.
-
-If you are new to Seneca in general, please take a look at [senecajs.org][]. We have everything from
-tutorials to sample apps to help get you up and running quickly.
 
 ## What you'll need:
 
